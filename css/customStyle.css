@@ -1,0 +1,54 @@
+a:link {
+    text-decoration: none; 
+    color: azure; 
+}
+
+a:visited {
+    color: azure; 
+}
+
+a:hover {
+    color: palegoldenrod;
+}
+
+body {
+    background-color: indianred; 
+    background-image: url(/images/homeBackground.png);
+    height: 100%;
+    width: 100%;  
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+}
+
+.container {
+    height: 80%;
+}
+
+nav {
+    font-size: 1.5em; 
+    font-family: 'Caveat Brush', cursive; 
+}
+
+ul {
+ font-family: 'Nunito', sans-serif;   
+ font-size: 4.5em; 
+}
+
+.list-group-item {
+    background-color: transparent; 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 80px;
+    line-height: 80px; /* Vertically center the text there */
+  }
+
+  i {
+      font-size: 3em; 
+  }
