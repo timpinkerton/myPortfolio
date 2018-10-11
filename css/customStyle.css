@@ -125,3 +125,11 @@ PORTFOLIO PAGE STYLING
 #projects-div a {
     color: rgb(10, 0, 104); 
 }
+
+/************************************************************
+CONTACT PAGE STYLING
+***********************************************************/
+
+#contact-email {
+    font-size: 15em; 
+}
