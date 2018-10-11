@@ -99,8 +99,13 @@ i {
 PORTFOLIO PAGE STYLING
 ***********************************************************/
 
+/* width of div holding the image and caption */
+.portfolio-item {
+    max-width: 300px;
+}
+
 .portfolio-image {
-    height: 100px;
+    max-width: 100%;
 }
 
 
