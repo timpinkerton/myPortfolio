@@ -48,7 +48,9 @@ i {
     font-size: 3em;
 }
 
-/*************** Page Backgrounds ***************/
+/************************************************************
+ PAGE BACKGROUNDS
+***********************************************************/
 
 #index-bg {
     background-color: indianred;
@@ -132,4 +134,11 @@ CONTACT PAGE STYLING
 
 #contact-email {
     font-size: 15em; 
+}
+
+
+@media (min-width: 768px) {
+    h2 {
+        display: none; 
+    }
 }
