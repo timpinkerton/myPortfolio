@@ -1,43 +1,37 @@
 a:link {
-    text-decoration: none; 
-    color: azure; 
+    text-decoration: none;
+    color: azure;
 }
 
 a:visited {
-    color: azure; 
+    color: azure;
 }
 
 a:hover {
     color: palegoldenrod;
 }
 
-body {
-    background-color: indianred; 
-    background-image: url(/images/homeBackground.png);
-    height: 100%;
-    width: 100%;  
-    background-repeat: no-repeat;
-    background-position: center;
-    position: fixed;
-    background-size: cover;
-}
-
 .container {
-    height: 80%;
+    height: 75%;
 }
 
 nav {
-    font-size: 1.5em; 
-    font-family: 'Caveat Brush', cursive; 
+    font-size: 1.5em;
+    font-family: 'Caveat Brush', cursive;
+    color: azure;
 }
 
-ul {
- font-family: 'Nunito', sans-serif;   
- font-size: 4.5em; 
+.nav-item {
+    color: azure;  
+}
+
+#main-menu {
+    font-family: 'Nunito', sans-serif;
+    font-size: 4.5em;
 }
 
 .list-group-item {
-    background-color: transparent; 
+    background-color: transparent;
 }
 
 .footer {
@@ -46,9 +40,67 @@ ul {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 80px;
-    line-height: 80px; /* Vertically center the text there */
-  }
+    line-height: 80px;
+    /* Vertically center the text there */
+}
 
-  i {
-      font-size: 3em; 
-  }
+i {
+    font-size: 3em;
+}
+
+/*************** Page Backgrounds ***************/
+
+#index-bg {
+    background-color: indianred;
+    background-image: url(/images/indexBG5.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+}
+
+#portfolio-bg {
+    background-color: indianred;
+    background-image: url(/images/portfolioBG5.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+}
+
+#about-bg {
+    background-color: indianred;
+    background-image: url(/images/aboutBG5.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+}
+
+#contact-bg {
+    background-color: indianred;
+    background-image: url(/images/contactBG5.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+}
+
+#resume-bg {
+    background-color: indianred;
+    background-image: url(/images/resumeBG5.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+}
