@@ -22,7 +22,7 @@ nav {
 }
 
 .nav-item {
-    color: azure;  
+    color: azure;
 }
 
 #main-menu {
@@ -94,13 +94,29 @@ i {
     background-size: cover;
 }
 
-#resume-bg {
-    background-color: indianred;
-    background-image: url(/images/resumeBG5.png);
-    height: 100%;
+
+/************************************************************
+PORTFOLIO PAGE STYLING
+***********************************************************/
+
+.portfolio-image {
+    height: 100px;
+}
+
+
+/************************************************************
+ RESUME PAGE STYLING
+***********************************************************/
+#resume-body {
+    background-image: url("/images/resumeBGsmall.png");
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: fixed;
     background-size: cover;
+}
+
+#contact-list {
+    list-style: none;
+}
+
+#projects-div a {
+    color: rgb(10, 0, 104); 
 }
