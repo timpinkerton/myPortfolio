@@ -1,3 +1,7 @@
+/************************************************************
+ GENERAL
+***********************************************************/
+
 a:link {
     text-decoration: none;
     color: azure;
@@ -8,40 +12,18 @@ a:visited {
 }
 
 a:hover {
-    color: palegoldenrod;
+    color: rgb(133, 182, 255);
 }
 
 .container {
     height: 75%;
 }
 
-nav {
-    font-size: 1.5em;
-    font-family: 'Caveat Brush', cursive;
-    color: azure;
-}
-
-.nav-item {
-    color: azure;
-}
-
-#main-menu {
-    font-family: 'Nunito', sans-serif;
-    font-size: 4.5em;
-}
-
-.list-group-item {
-    background-color: transparent;
-}
-
 .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 80px;
-    line-height: 80px;
-    /* Vertically center the text there */
+    height: 75px;
 }
 
 i {
@@ -49,7 +31,21 @@ i {
 }
 
 /************************************************************
- PAGE BACKGROUNDS
+NAVBAR 
+***********************************************************/
+nav {
+    font-size: 1.5em;
+    font-family: 'Nunito', sans-serif;
+    color: azure;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: azure; 
+}
+
+
+/************************************************************
+INDEX 
 ***********************************************************/
 
 #index-bg {
@@ -63,16 +59,21 @@ i {
     background-size: cover;
 }
 
-#portfolio-bg {
-    background-color: indianred;
-    background-image: url(/images/portfolioBG5.png);
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: fixed;
-    background-size: cover;
+#main-menu {
+    font-family: 'Nunito', sans-serif;
+    font-size: 4.25em;
 }
+
+
+
+.list-group-item {
+    background-color: transparent;
+}
+
+
+/************************************************************
+ ABOUT PAGE
+***********************************************************/
 
 #about-bg {
     background-color: indianred;
@@ -85,21 +86,25 @@ i {
     background-size: cover;
 }
 
-#contact-bg {
-    background-color: indianred;
-    background-image: url(/images/contactBG5.png);
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: fixed;
-    background-size: cover;
+#about-div {
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 /************************************************************
-PORTFOLIO PAGE STYLING
+PORTFOLIO PAGE
 ***********************************************************/
+
+#portfolio-bg {
+    background-color: indianred;
+    background-image: url(/images/portfolioBG5.png);
+    height: fit-content;
+    width: 100%;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* position: fixed; */
+    background-size: cover;
+}
 
 /* width of div holding the image and caption */
 .portfolio-item {
@@ -112,7 +117,7 @@ PORTFOLIO PAGE STYLING
 
 
 /************************************************************
- RESUME PAGE STYLING
+ RESUME PAGE
 ***********************************************************/
 #resume-body {
     background-image: url("/images/resumeBGsmall.png");
@@ -120,25 +125,48 @@ PORTFOLIO PAGE STYLING
     background-size: cover;
 }
 
+h1 {
+    white-space: nowrap; 
+}
+
 #contact-list {
     list-style: none;
 }
+
+.skills-list {
+    white-space: nowrap;
+} 
 
 #projects-div a {
     color: rgb(10, 0, 104); 
 }
 
 /************************************************************
-CONTACT PAGE STYLING
+CONTACT PAGE
 ***********************************************************/
+
+#contact-bg {
+    background-color: indianred;
+    background-image: url(/images/contactBG5.png);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    background-size: cover;
+}
 
 #contact-email {
     font-size: 15em; 
 }
 
 
+/************************************************************
+MEDIA QUERIES
+***********************************************************/
+
 @media (min-width: 768px) {
-    h2 {
+    h4 {
         display: none; 
     }
 }
