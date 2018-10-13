@@ -134,7 +134,7 @@ PORTFOLIO PAGE
     background-size: cover;
 }
 
-h1, h3, h6 {
+h1, h3 {
     white-space: nowrap; 
     font-family: 'Patua One', cursive;
 }
@@ -148,7 +148,8 @@ h3 {
 }
 
 h6 {
-    font-size: .8em; 
+    font-size: .7em; 
+    font-family: 'Patua One', cursive;
 }
 
 li, p {
@@ -160,12 +161,26 @@ li, p {
     list-style: none;
 }
 
-.skills-list {
+.skills-ul {
+    border: 1px solid red; 
+    /* max-width: 80%; */
+}
+
+.skills-li {
+    border: 1px solid greenyellow;
+    font-size: 1.2em; 
+
+    max-width: 55%;
+    margin: 0 auto; 
     white-space: nowrap;
 } 
 
 #projects-div a {
-    color: rgb(10, 0, 104); 
+    color: rgb(15, 53, 160); 
+}
+
+.resume-footer-links {
+    color: rgba(0, 0, 0, 0.15); 
 }
 
 /************************************************************
