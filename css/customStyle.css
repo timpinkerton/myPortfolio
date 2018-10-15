@@ -134,6 +134,18 @@ PORTFOLIO PAGE
     background-size: cover;
 }
 
+a.phone-link,
+a.portfolio-link,
+a.email-link {
+    color: black; 
+}
+
+a.phone-link:hover,
+a.portfolio-link:hover,
+a.email-link:hover {
+    color: rgb(15, 53, 160);
+}
+
 h1, h3 {
     white-space: nowrap; 
     font-family: 'Patua One', cursive;
@@ -162,15 +174,15 @@ li, p {
 }
 
 .skills-ul {
-    border: 1px solid red; 
-    /* max-width: 80%; */
+    /* border: 1px solid red;  */
+    min-width: 100%;
 }
 
 .skills-li {
-    border: 1px solid greenyellow;
-    font-size: 1.2em; 
+    /* border: 1px solid greenyellow; */
+    font-size: 1.1em; 
 
-    max-width: 55%;
+    max-width: 50%;
     margin: 0 auto; 
     white-space: nowrap;
 } 
@@ -211,4 +223,17 @@ MEDIA QUERIES
     h4 {
         display: none; 
     }
+
+    .skills-ul {
+        min-width: 0;   
+    }
+    
+    .skills-li {
+        font-size: 1.2em; 
+    
+        max-width: 55%;
+        margin: 0 auto; 
+        white-space: nowrap;
+    } 
+
 }
