@@ -72,8 +72,6 @@ INDEX
     font-size: 4.25em;
 }
 
-
-
 .list-group-item {
     background-color: transparent;
 }
@@ -122,6 +120,13 @@ PORTFOLIO PAGE
 .portfolio-image {
     max-width: 100%;
 }
+
+p.portfolio-caption {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.1em; 
+}
+
+
 
 
 /************************************************************
