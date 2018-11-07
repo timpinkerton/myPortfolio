@@ -88,7 +88,7 @@ INDEX
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    position: fixed;
+    /* position: fixed; */
     background-size: cover;
 }
 
@@ -125,8 +125,6 @@ p.portfolio-caption {
     font-family: 'Nunito', sans-serif;
     font-size: 1.1em; 
 }
-
-
 
 
 /************************************************************
@@ -200,6 +198,7 @@ li, p {
     color: rgba(0, 0, 0, 0.15); 
 }
 
+
 /************************************************************
 CONTACT PAGE
 ***********************************************************/
@@ -241,4 +240,26 @@ MEDIA QUERIES
         white-space: nowrap;
     } 
 
+}
+
+@media (max-height: 600px) {
+    
+    #main-menu li {
+        font-size: 3em; 
+    }
+}
+
+@media (max-height: 414px) {
+    
+    #main-menu li {
+        font-size: 1.6em; 
+    }
+
+    .container {
+        height: 50%;
+    }
+
+    #about-div {
+        margin-bottom: 80px; 
+    }
 }
