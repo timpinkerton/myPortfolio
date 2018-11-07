@@ -96,6 +96,10 @@ INDEX
     font-family: 'Open Sans', sans-serif;
 }
 
+#about-div {
+    margin-bottom: 90px; 
+}
+
 
 /************************************************************
 PORTFOLIO PAGE
@@ -259,7 +263,4 @@ MEDIA QUERIES
         height: 50%;
     }
 
-    #about-div {
-        margin-bottom: 80px; 
-    }
 }
